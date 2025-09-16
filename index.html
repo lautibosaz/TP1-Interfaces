@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entrega – Prototipo Peg Solitaire</title>
+  <style>
+    :root { --bg:#0f1115; --card:#171923; --txt:#e7e9ee; --muted:#a7adbb; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);}
+    .wrap{max-width:900px;margin:48px auto;padding:0 20px}
+    .card{background:var(--card);border:1px solid #262a36;border-radius:16px;padding:24px;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+    h1{margin:0 0 8px;font-size:28px}
+    p{margin:0 0 20px;color:var(--muted)}
+    .links{display:grid;gap:12px;margin:18px 0 6px}
+    a.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;
+      padding:14px 16px;border-radius:12px;border:1px solid #2a2f3c;text-decoration:none;color:var(--txt)}
+    a.btn:hover{border-color:#3b4356;transform:translateY(-1px)}
+    small{color:var(--muted)}
+    ul{margin:10px 0 0 18px;color:var(--muted)}
+    .badge{font-size:12px;padding:2px 8px;border:1px solid #3b4356;border-radius:999px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <div class="links">
+        <!-- EDITOR -->
+        <a class="btn" href="https://www.figma.com/design/mJTK9pVeVNwDuCwGpJ1EVz/TP-Interfaces?node-id=0-1&m=dev&t=XOxpN2EYgH2X5JVt-1" target="_blank" rel="noopener">
+          <span>🔧 Prototipo – <strong>Modo EDITOR</strong></span>
+          <span class="badge">Figma</span>
+        </a>
+
+        <!-- PRESENTACIÓN -->
+        <a class="btn" href="https://www.figma.com/proto/mJTK9pVeVNwDuCwGpJ1EVz/TP-Interfaces?node-id=0-1&t=XOxpN2EYgH2X5JVt-1" target="_blank" rel="noopener">
+          <span>▶️ Prototipo – <strong>Modo PRESENTACIÓN</strong></span>
+          <span class="badge">Figma</span>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
